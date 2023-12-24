@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  reverse_tunnel_manager:
+    image: reverse_tunnel_manager:latest
+    restart: "no"
+    network_mode: "host"
+    build:
+      context: .
+      dockerfile: Dockerfile

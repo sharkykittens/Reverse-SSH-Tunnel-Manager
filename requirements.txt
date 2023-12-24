@@ -1,0 +1,9 @@
+pexpect
+python-dotenv
+fastapi
+starlette
+uvicorn
+aiofiles
+websockets
+pywebio
+loguru
